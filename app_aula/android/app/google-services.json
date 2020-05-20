@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922679920164",
+    "firebase_url": "https://meumedico-67271.firebaseio.com",
+    "project_id": "meumedico-67271",
+    "storage_bucket": "meumedico-67271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922679920164:android:f5e2d060072ebaa2923ab1",
+        "android_client_info": {
+          "package_name": "io.meumedico.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922679920164-7kf4524m8h41r2ssb3vigccddiq1d4un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.meumedico.flutter",
+            "certificate_hash": "c17caf3b0064b1c3765d9d2f65bda6e9efcd3af1"
+          }
+        },
+        {
+          "client_id": "922679920164-a4pnleq51b3ohbp9t1psvg7sl9bev08s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrNKJDJ1576IFLB8_GBGQ_mLinbL18lPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922679920164-a4pnleq51b3ohbp9t1psvg7sl9bev08s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
