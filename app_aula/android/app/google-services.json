@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "564275229848",
+    "firebase_url": "https://projeto-hospital-6ab67.firebaseio.com",
+    "project_id": "projeto-hospital-6ab67",
+    "storage_bucket": "projeto-hospital-6ab67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564275229848:android:be79228e1c4b41a6898ced",
+        "android_client_info": {
+          "package_name": "io.meumedico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564275229848-mev7keh34ce11b8pueg0i7g8t3nc93ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.meumedico",
+            "certificate_hash": "c17caf3b0064b1c3765d9d2f65bda6e9efcd3af1"
+          }
+        },
+        {
+          "client_id": "564275229848-nh8ftqpentlmqld6dui24gg5klkjm1ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmgoplU7Nqy1Nv1pWYGC4hRn8l__EFp1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564275229848-nh8ftqpentlmqld6dui24gg5klkjm1ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
