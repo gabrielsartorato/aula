@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:app_aula/lista.dart';
+// import 'package:app_aula/lista.dart';
 // import 'package:app_aula/cadastro.dart';
 
 // void main() => runApp(LoginApp());
@@ -170,9 +170,13 @@ class _Cadastro extends State<Cadastro> {
                           onPressed: () async {
                             print(username);
                             print(password);
-                            FirebaseUser user = await FirebaseAuth.instance
+                            FirebaseUser user = (await FirebaseAuth.instance
                                 .createUserWithEmailAndPassword(
-                                    email: username, password: password);
+                                    email: username,
+                                    password: password)) as FirebaseUser;
+                            if (user != null) {
+                              print("oi");
+                            }
                           },
                           shape: new RoundedRectangleBorder(
                             borderRadius: new BorderRadius.circular(40.0),
